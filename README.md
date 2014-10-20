@@ -4,7 +4,9 @@ GoToJakarta
 Description
 -----------
 
-GoToJakarta is a C++ program to determine minimal path from several cities in West Java to Jakarta, Indonesia. It is useful for users to efficiency the travel time and cost. This program is an implementation of the A* algorithm (astar), you can learn more about A* algorithm [here](http://ow.ly/D1aZy).
+GoToJakarta is a C++ program to determine minimal path from several cities in West Java to Jakarta, Indonesia. It is useful for users to efficiency the travel time and cost. 
+
+This program is an implementation of the A* algorithm (astar), you can learn more about A* algorithm [here](http://ow.ly/D1aZy). Thank you [justinhj](http://www.heyes-jones.com) for the STL header.
 
 How To Compile
 --------------
@@ -19,7 +21,7 @@ Usage
 	
 	./gotojakarta [start_city_name]
 
-List of `start_city_name` can be found at west-java-map.png on images directory.
+List of `start_city_name` can be found at `west-java-map.png` on `images` directory.
 Example:
 	
 	$ ./gotojakarta Garut
