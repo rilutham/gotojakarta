@@ -11,15 +11,30 @@ How To Compile
 
 Just simply run the following command:
 	
+	$ cd path/to/gotojakarta/directory
 	$ make
 
 Usage
 -----
+	
+	./gotojakarta [start_city_name]
 
-gotojakarta [start_city_name]
+List of `start_city_name` can be found at west-java-map.png on images directory.
+Example:
+	
+	$ ./gotojakarta Garut
+	Pencarian rute terpendek menuju Jakarta ditemukan!
+	Berikut kota-kota yang harus dilalui:
+	 Garut
+	 Bandung
+	 Cimahi
+	 Purwakarta
+	 Karawang
+	 Bekasi
+	 Jakarta
+	Langkah Solusi : 6
+	Jumlah langkah pencarian : 9
 
-	Example:
-	$ gotojakarta Garut
 
 License
 -------
