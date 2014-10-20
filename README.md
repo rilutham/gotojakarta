@@ -10,18 +10,16 @@ How To Compile
 --------------
 
 Just simply run the following command:
-{% highlight bash %}
-$ make
-{% endhighlight %}
+	
+	$ make
 
 Usage
 -----
 
 gotojakarta [start_city_name]
-{% highlight bash %}
-Example:
-$ gotojakarta Garut
-{% endhighlight %}
+
+	Example:
+	$ gotojakarta Garut
 
 License
 -------
